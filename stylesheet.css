@@ -281,97 +281,97 @@ figure figcaption {
         font-size: 2em;
     }
     #acc1 {
-        background-image: url(media/stamps/stamp1.png);
+        background-image: url(media/stampscontent/stamp1.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc2 {
-        background-image: url(media/stamps/stamp2.png);
+        background-image: url(media/stampscontent/stamp2.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc3{
-        background-image: url(media/stamps/stamp3.png);
+        background-image: url(media/stampscontent/stamp3.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc4{
-        background-image: url(media/stamps/stamp4.png);
+        background-image: url(media/stampscontent/stamp4.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc5 {
-        background-image: url(media/stamps/stamp5.png);
+        background-image: url(media/stampscontent/stamp5.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc6 {
-        background-image: url(media/stamps/stamp6.png);
+        background-image: url(media/stampscontent/stamp6.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc7 {
-        background-image: url(media/stamps/stamp7.png);
+        background-image: url(media/stampscontent/stamp7.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc8 {
-        background-image: url(media/stamps/stamp8.png);
+        background-image: url(media/stampscontent/stamp8.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc9 {
-        background-image: url(media/stamps/stamp9.png);
+        background-image: url(media/stampscontent/stamp9.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc10 {
-        background-image: url(media/stamps/stamp10.png);
+        background-image: url(media/stampscontent/stamp10.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc11{
-        background-image: url(media/stamps/stamp11.png);
+        background-image: url(media/stampscontent/stamp11.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc12 {
-        background-image: url(media/stamps/stamp12.png);
+        background-image: url(media/stampscontent/stamp12.png);
         background-repeat: no-repeat;
         background-position: right 20px top 20px;
         background-size: auto 70%;
     }
     #acc1.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp1.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp1.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc2.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp2.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp2.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc3.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp3.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp3.png);
         background-repeat: no-repeat;
         background-position: right top, right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc4.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp4.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp4.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
@@ -383,43 +383,43 @@ figure figcaption {
         background-size: 300px auto, auto 70%;
     }
     #acc6.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp6.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp6.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc7.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp7.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp7.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc8.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp8.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp8.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc9.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp9.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp9.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc10.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp10.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp10.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc11.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp11.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp11.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
     }
     #acc12.open {
-        background-image: url(media/stempel.png), url(media/stamps/stamp12.png);
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp12.png);
         background-repeat: no-repeat;
         background-position: right top, right 20px top 20px;
         background-size: 300px auto, auto 70%;
