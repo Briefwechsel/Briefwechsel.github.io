@@ -145,14 +145,13 @@ iframe {
     hyphens: auto;
 }
 figure {
-    display: flex;
+    display: inline;
     flex-flow: column;
     height: 100%;
     width: auto;
     margin-top: 0px;
 }
-figure figcaption {
-    display: inline;
+figcaption {
     text-align: left;
     vertical-align: middle;
     margin: auto;
