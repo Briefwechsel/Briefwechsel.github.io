@@ -133,6 +133,11 @@ figure > video {
     width: auto;
 }
 
+iframe {
+    height:100%;
+    width: auto;
+}
+
 .erklaerung {
     height: 100%;
     min-width: 400px;
