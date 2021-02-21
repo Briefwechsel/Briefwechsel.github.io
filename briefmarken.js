@@ -11,7 +11,7 @@ function setup() {
   imageMode (CENTER);
   possible_briefmarke_images = ["media/stamps/stamp1.png", "media/stamps/stamp2.png", "media/stamps/stamp3.png", "media/stamps/stamp4.png", "media/stamps/stamp5.png", "media/stamps/stamp6.png", "media/stamps/stamp7.png", "media/stamps/stamp8.png", "media/stamps/stamp9.png", "media/stamps/stamp10.png", "media/stamps/stamp11.png", "media/stamps/stamp11.2.png", "media/stamps/stamp12.png"];
   currentBriefmarkPos = 0;
-  pixelDensity(10);
+  pixelDensity(50);
 }
 
 function windowResized() {
