@@ -4,7 +4,7 @@ let currentBriefmarkPos;
 let maxBriefmarke = 12;
 
 function setup() {
-  pixelDensity(20);
+  pixelDensity(3);
   var cnv = createCanvas(windowWidth, windowHeight);
       cnv.parent('sketching-canvas');
   imageMode (CENTER);
