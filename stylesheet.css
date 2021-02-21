@@ -147,6 +147,7 @@ figure {
     margin-top: 0px;
 }
 figure figcaption {
+    display: inline;
     text-align: left;
     vertical-align: middle;
     margin: auto;
