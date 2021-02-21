@@ -6,12 +6,12 @@ let maxBriefmarke = 12;
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
       cnv.parent('sketching-canvas');
-  pixelDensity.Graphics(windowWidth, windowHeight, P2D);
-  g.pixelDensity(pixelDensity(2));
+  //pixelDensity.Graphics(windowWidth, windowHeight, P2D);
+  //g.pixelDensity(pixelDensity(2));
   imageMode (CENTER);
   possible_briefmarke_images = ["/media/stamps/stamp1.png", "/media/stamps/stamp2.png", "/media/stamps/stamp3.png", "/media/stamps/stamp4.png", "/media/stamps/stamp5.png", "media/stamps/stamp6.png", "/media/stamps/stamp7.png", "/media/stamps/stamp8.png", "/media/stamps/stamp9.png", "/media/stamps/stamp10.png"];
   currentBriefmarkPos = 0;
-  //pixelDensity(1);
+  pixelDensity(1);
 }
 
 function windowResized() {
