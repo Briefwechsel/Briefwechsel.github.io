@@ -1,7 +1,7 @@
 let possible_briefmarke_images;
 let img;
 let currentBriefmarkPos;
-let maxBriefmarke = 12;
+let maxBriefmarke = 13;
 
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
