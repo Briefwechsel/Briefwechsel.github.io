@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briefwechsel</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zbc3aet.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="theme-color" content="#ffffff">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script1.js"></script>
+    <script src="p5.min.js"></script>
+</head>
+<body>
+    <div class="landing">
+        <div class="landing-wrapper">
+            <script src="briefmarken.js"></script>
+            <div class="kleben"><p>Klicken zum Kleben</p></div>
+            <div style="background-color: black; grid-column: 2; grid-row: 1/ span 3;"></div>
+            <div id="briefmarke_s"><img src="media/briefmarke.svg"></div>
+            <div id="briefmarke_g"><div><img src="media/briefmarke_gelb.svg" width="150px"></div></div>
+            <div id="briefmarke_b"><div><img src="media/briefmarke_blau.svg" width="250px"></div></div>
+            <div id="briefmarke_r"><div><img src="media/briefmarke_rot.svg" width="250px"></div></div>
+            <div class="obj1"><h1>Briefwechsel</h1></div>
+            <div class="obj2"><div><p id="wintersemester">Wintersemester 2020/21</p></div></div>
+            <div class="obj3"><p class="wer">Basics-20</p></div>
+            <div class="obj4" style="border-top: solid black 4px;"><p class="beschreibung">Hier dokumentieren die Studierenden der <br>Basics-20 Klasse...//Aufgabenstellung </p></div>
+            <div style="background-color: black; grid-column: 4; grid-row: 8/ span 5;"></div>
+        </div>
+    </div>
+    <div id="sketching-canvas"></div>
+    <hr>
+    <div class="content">
+        <div class="akk">
+            <div class="accordion" id="acc1">Aisha Ramm &<br>Marc Loewer</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text fehlt!</p></div>
+                    <figure>
+                        <img src="media/content/pos1/a1.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos1/a2.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos1/a3.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos1/a4.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos1/a5.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos1/a6.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc2">Aleksandar Chaparev &<br>Yael Rathjens</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text fehlt!</p></div>
+                    <figure>
+                        <img src="media/content/pos2/a1.jpg">
+                        <figcaption>Yael</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a2.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a3.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a4.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a5.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a6.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a7.jpg">
+                        <figcaption>Alexandar</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a8.jpg">
+                        <figcaption>Yael</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a9.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a10.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a11.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a12.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a13.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a14.jpg">
+                        <figcaption>Alexandar</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a15.jpg">
+                        <figcaption>Yael</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a16.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/a17.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos2/18.jpg">
+                        <figcaption>Alexandar</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc3">Alina Abberger &<br>Taro Usami</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>BRIEFWECHSEL "WILDNIS" von Taro Usami und Alina Abberger
+                        In unserem Briefwechsel haben wir uns über einen Zeitraum von etwa 12 Wochen jeweils drei Briefe geschickt. Unsere Arbeitsweise beschränkte sich auf die digitale Erstellung der Briefe. Aufgrund eingeschränkter Möglichkeiten verlief der Austausch online.
+                        Thematisch haben wir den bildlichen Briefaustausch unter dem Begriff "Wildnis" geführt. Textlich wurde lediglich ein Begriff zu dem jeweiligen Bild beigelegt, welcher auf den Inhalt des Bildes eingeht. 
+                        Kommuniziert wurde über die Darstellung von Körperteilen. Wobei jeder ein Farbschema entwickelt hatte, welches durch aufgreifen der Farben des Briefpartners ergänzt werden konnte.
+                        Eine Kommunikation, zwei Teilhabende, zwei Perspektiven.</p></div>
+                    <figure>
+                        <img src="media/content/pos3/a1.png">
+                        <figcaption>Taro: Vitalität</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos3/a2.png">
+                        <figcaption>Alina: Ursprung</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos3/a3.jpg">
+                        <figcaption>Taro: Hitze </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos3/a4.png">
+                        <figcaption>Alina: Analysieren</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos3/a5.jpg">
+                        <figcaption>Taro: Beute</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos3/a6.png">
+                        <figcaption>Alina: Kreislauf</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc4">Anneli Dormann &<br>Lea Verholen Schmitt</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text fehlt!</p></div>
+                    <figure>
+                        <img src="media/content/pos4/a1.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a2.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a3.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a4.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a5.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a6.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a7.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a8.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos4/a9.jpg">
+                        <figcaption>An elephant at sunset</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc5">Antonia Langeheinecke<br>& Tim Stürze</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text zu lang!</p></div>
+                    <figure>
+                        <img src="media/content/pos5/a1.jpg">
+                        <figcaption>Tim</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a2.jpg">
+                        <figcaption>Antonia</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a3.jpg">
+                        <figcaption>Antonia</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a4.jpg">
+                        <figcaption>Tim</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a5.jpg">
+                        <figcaption>Tim</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a6.jpg">
+                        <figcaption>Antonia</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a7.jpg">
+                        <figcaption>Antonia</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a8.jpg">
+                        <figcaption>Tim</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a9.jpg">
+                        <figcaption>Tim</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a10.jpg">
+                        <figcaption>Antonia</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos5/a11.jpg">
+                        <figcaption>Übersicht</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc6">Cäcilie Hoff &<br>Christian Pasqual</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Was sehen wir? Was fällt uns auf? 
+                        Das haben wir uns während unserem Briefwechsel immer wieder gefragt und dabei versucht unsere Beobachtungen in einer gemeinsamen Zeichnung festzuhalten. 
+                        Die Reaktion auf das Vorhandene, Erinnerung, die sich mit Fiktion vermischt - Überlagerung und Ergänzung. Ohne den direkten Austausch, das persönliche Treffen, ohne Text oder Gespräch über den Hintergrund der einzelnen Zeichnungen - als Mittel der Kommunikation nur einen Fineliner nutzen und doch so viel erzählen.</p></div>
+                    <figure>
+                        <img src="media/content/pos6/a1.gif">
+                        <figcaption>Übersicht</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos6/a2.jpg">
+                        <figcaption>Christian</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos6/a3.jpg">
+                        <figcaption>Cäcilie</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos6/a4.jpg">
+                        <figcaption>Christian</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos6/a5.jpg">
+                        <figcaption>Cäcilie</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos6/a6.jpg">
+                        <figcaption>Christian</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos6/a7.jpg">
+                        <figcaption>Cäcilie</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc7">Charlotte Riemann &<br> Hasan Gündogan</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Wechsel von innen und außen - die subjektive Beobachtung und Beschreibung des eigenen zu Hauses und der unmittelbaren Umgebung in Zeiten einer globalen Pandemie, gezeichnet und zusammengefasst in einem 8-seitigen Heft (Format: DinA 6). </p></div>
+                    <figure>
+                        <img src="media/content/pos7/a1.jpg">
+                        <figcaption>Hasan</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a2.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a3.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a4.jpg">
+                        <figcaption>Charlotte</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a5.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a6.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a7.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a8.jpg">
+                        <figcaption>Hasan</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a9.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a10.jpg">
+                        <figcaption>Charlotte</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a11.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a12.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a13.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a14.jpg">
+                        <figcaption>Hasan</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a15.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a16.jpg">
+                        <figcaption>Charlotte</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a17.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a18.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos7/a19.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc8">David Minh Ha & <br>Sina Schlerf</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text fehlt</p></div>
+                    <figure>
+                        <img src="media/content/pos8/a1.jpg">
+                        <figcaption>Übersicht</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a2.jpg">
+                        <figcaption>David</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a3.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a4.jpg">
+                        <figcaption>Sina</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a5.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a6.jpg">
+                        <figcaption>David</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a7.jpg">
+                        <figcaption>Sina</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a8.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a9.jpg">
+                        <figcaption>David</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a10.jpg">
+                        <figcaption>Sina</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a11.jpg">
+                        <figcaption>David</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a12.jpg">
+                        <figcaption>Postkarten</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a13.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos8/a14.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc9">Jakob Ereksen &<br>Valeria Alvarez</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>???????????
+                        Blumen sind schön, auch wenn sie verwelken
+                        Ich will nicht verwelken
+                        Haben wir eine Wahl?
+                        Ich bin nicht mehr da</p></div>
+                    <figure>
+                        <img src="media/content/pos9/a1.jpg">
+                        <figcaption>Valeria</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a2.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a3.jpg">
+                        <figcaption>Jakob</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a4.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a5.jpg">
+                        <figcaption>Valeria</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a6.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a7.jpg">
+                        <figcaption>Jakob</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a8.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a9.jpg">
+                        <figcaption>Valeria</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos9/a10.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc10">Jonas Gerber &<br>Moana Schorlemer Filipe</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text zu lang!</p></div>
+                    <figure>
+                        <img src="media/content/pos10/a1.jpg">
+                        <figcaption>Jonas</figcaption>
+                    </figure>
+                    <figure>
+                        <video controls>
+                            <source src="media/content/pos10/a2.mp4" type="video/mp4">
+                          </video>
+                          <figcaption>Moana</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos10/a3.jpg">
+                        <figcaption>Jonas</figcaption>
+                    </figure>
+                    <figure>
+                        <video controls>
+                            <source src="media/content/pos10/a4.mp4" type="video/mp4">
+                          </video>
+                          <figcaption>Moana</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos10/a5.jpg">
+                        <figcaption>Jonas</figcaption>
+                    </figure>
+                    <figure>
+                        <video controls>
+                            <source src="media/content/pos10/a6.mp4" type="video/mp4">
+                          </video>
+                          <figcaption>Moana</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc11">Nick Alker &<br>Pauline Pyras</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text zu lang!</p></div>
+                    <figure>
+                        <img src="media/content/pos11/a1.gif">
+                        <figcaption>Übersicht</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos11/a2.jpg">
+                        <figcaption>Pauline</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos11/a3.jpg">
+                        <figcaption>Nick</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos11/a4.jpg">
+                        <figcaption>Pauline</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos11/a5.jpg">
+                        <figcaption>Nick</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos11/a6.jpg">
+                        <figcaption>Pauline</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos11/a7.jpg">
+                        <figcaption>Nick</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="accordion" id="acc12">Nour al Safadi &<br>Raviva Nsiama</div>
+            <div class="panel">
+                <div class="media-wrapper">
+                    <div class="erklaerung"><p>Text fehlt!</p></div>
+                    <figure>
+                        <img src="media/content/pos12/a1.jpg">
+                        <figcaption>Raviva</figcaption>
+                    </figure>
+                    <figure>
+                        <video controls>
+                            <source src="media/content/pos12/a2.mp4" type="video/mp4">
+                          </video>
+                          <figcaption>Nour</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos12/a3.jpg">
+                        <figcaption>Raviva</figcaption>
+                    </figure>
+                    <figure>
+                        <video controls>
+                            <source src="media/content/pos12/a4.mp4" type="video/mp4">
+                          </video>
+                          <figcaption>Nour</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="media/content/pos12/a5.jpg">
+                        <figcaption>Raviva</figcaption>
+                    </figure>
+                    <figure>
+                        <video controls>
+                            <source src="media/content/pos12/a6.mp4" type="video/mp4">
+                          </video>
+                          <figcaption>Nour</figcaption>
+                    </figure>
+                </div>
+            </div>         
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <a href="http://www.basics-blog.de" class="aa">basics-blog.de</a>
+        <br>
+        <br>
+        <!--<p>Development: David Minh Ha, Marc Loewer<br>Interaction Design: Christian Pasqual<br>Layout: Lea Verholen Schmitt, Nour Al Safadi</p>-->
+    </div>
+    <script src="script2.js"></script> 
+</body>
+</html>
