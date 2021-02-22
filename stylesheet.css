@@ -134,7 +134,8 @@ figure > iframe {
     width: 1000px;
 }
 figure > video {
-    object-fit: fill;
+    height:95%;
+    width: auto;
 }
 
 .erklaerung {
