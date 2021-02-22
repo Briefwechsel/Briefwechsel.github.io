@@ -121,7 +121,7 @@ hr {
     cursor: grabbing;
     cursor: -webkit-grabbing;
     transform: scale(1.02);
-  }
+}
 
 figure > img {
     height: 95%;
@@ -131,6 +131,10 @@ figure > img {
 figure > iframe {
     display: inline;
     height: 95%;
+    width: 1000px;
+}
+figure > video {
+    height: 100%;
     width: auto;
 }
 
