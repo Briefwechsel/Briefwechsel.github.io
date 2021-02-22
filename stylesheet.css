@@ -127,13 +127,10 @@ figure > img {
     height: 95%;
     width: auto;
 }
-figure > video {
-    height: 95%;
-    width: auto;
-}
 
-iframe {
-    height:95%;
+figure > iframe {
+    display: inline;
+    height: 95%;
     width: auto;
 }
 
