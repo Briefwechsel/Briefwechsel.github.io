@@ -1,3 +1,7 @@
+window.onload = function() {
+    document.getElementById("loading").style.display = "none";
+}
+
 $(document).ready(function(){
     $('.accordion').click(function(event) {
       event.preventDefault();
