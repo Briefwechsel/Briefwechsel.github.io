@@ -165,10 +165,10 @@ figcaption {
 
 @media only screen and (min-width: 1100px) {
     /* For desktop: */
-    h1 {font-size: 5em;}
-    h2 {font-size: 2em;}
-    .wer {font-size: 4em;}
-    .beschreibung {font-size: 1.5em;}
+    h1 {font-size: 9vh;}
+    #wintersemester {font-size: 3vh;}
+    .wer {font-size: 7vh;}
+    .beschreibung {font-size: 2vh;}
 
     .landing-wrapper {
         display: grid;
