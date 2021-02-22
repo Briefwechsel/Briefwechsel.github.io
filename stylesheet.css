@@ -112,7 +112,6 @@ hr {
     overflow-y: hidden;
     width: 100%;
     display: flex;
-    border: hotpink 2px solid;
     will-change: transform;
     cursor: grabbing;
 }
