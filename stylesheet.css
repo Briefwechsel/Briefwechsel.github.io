@@ -126,6 +126,7 @@ hr {
     border-bottom: 4px solid black;
     padding: 20px;
     padding-right:0px;
+    padding-left:0px;
     display: none;
 }
 .open {
@@ -168,6 +169,7 @@ figure > video {
     min-width: 400px;
     text-align: left;
     hyphens: auto;
+    padding: 20px;
 }
 figure {
     display: inline;
