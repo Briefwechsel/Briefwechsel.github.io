@@ -146,7 +146,7 @@ hr {
 .media-wrapper.active {
     cursor: grabbing;
     cursor: -webkit-grabbing;
-    transform: scale(1.02);
+    transform: scale(1.0);
 }
 
 figure > img {
