@@ -56,7 +56,8 @@ h1 {
 .wer {
     font-size: 2em; 
     text-align: end; 
-    padding: 20px;
+    padding-right: 20px;
+    
 }
 
 .beschreibung {
