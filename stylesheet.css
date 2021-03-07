@@ -545,7 +545,7 @@ figcaption {
     }
 }
 
-@media only screen and (min-width: 391px) {
+@media only screen and (min-width: 1000px) {
     /* For desktop: */
     h1 {
         font-size: 9vh;
