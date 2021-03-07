@@ -605,7 +605,7 @@ figcaption {
     }
 
     #briefmarke_s > img {
-        width: 150px;
+        width: 250px;
     }
     #briefmarke_r {
         grid-row: 3/ span 1;
@@ -613,7 +613,7 @@ figcaption {
         display: grid;
         align-items: top;
         justify-items: center;
-        width: 150px;
+        width: 250px;
     }
     #briefmarke_b {
         grid-row: 2/ span 3;
@@ -621,7 +621,7 @@ figcaption {
         display: grid;
         align-items: top;
         justify-items: center;
-        width: 150px;
+        width: 250px;
     }
     #briefmarke_g {
         grid-row: 6/ span 2;
