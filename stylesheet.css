@@ -545,7 +545,7 @@ figcaption {
     }
 }
 
-@media only screen and (min-width: 392px) {
+@media only screen and (min-width: 1000px) {
     /* For desktop: */
     h1 {
         font-size: 9vh;
@@ -605,7 +605,7 @@ figcaption {
     }
 
     #briefmarke_s > img {
-        width: 250px;
+        width: 150px;
     }
     #briefmarke_r {
         grid-row: 3/ span 1;
@@ -613,7 +613,7 @@ figcaption {
         display: grid;
         align-items: top;
         justify-items: center;
-        width: 250px;
+        width: 150px;
     }
     #briefmarke_b {
         grid-row: 2/ span 3;
@@ -621,7 +621,7 @@ figcaption {
         display: grid;
         align-items: top;
         justify-items: center;
-        width: 250px;
+        width: 150px;
     }
     #briefmarke_g {
         grid-row: 6/ span 2;
