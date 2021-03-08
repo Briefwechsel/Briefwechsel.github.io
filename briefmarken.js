@@ -6,8 +6,8 @@ if (document.documentElement.clientWidth > 667) {
   let maxBriefmarke = 13;
 
   function setup() {
-    var cnv = createCanvas(windowWidth, windowHeight);
     pixelDensity(2);
+    var cnv = createCanvas(windowWidth, windowHeight);
         cnv.parent('sketching-canvas');
     //pixelDensity.Graphics(windowWidth, windowHeight, P2D);
     //g.pixelDensity(pixelDensity(2));
