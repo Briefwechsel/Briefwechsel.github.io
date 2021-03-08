@@ -1208,7 +1208,7 @@ figcaption {
 }
 
 @media only screen and (min-width: 392px) and (max-width: 668px) {
-    /* For mobile horizontal: */
+    /* For mobile iphone 6/7/8 horizontal: */
 
     h1 {
         font-size: 6vw;
@@ -1216,24 +1216,24 @@ figcaption {
     }
 
     #wintersemester {
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
     .wer {
-        font-size: 3vw;
+        font-size: 4vw;
         transform: rotate(90deg);
     }
 
     .beschreibung {
-        font-size: 1.8vh;
+        font-size: 2.5vh;
     }
 
     .landing {
-        height:60vh;
+        height:100vh;
         overflow: hidden;
     }
     .landing-wrapper {
-        height: 60vh;
+        height: 100vh;
         width: 100%;
         position: absolute;
     }
@@ -1241,7 +1241,7 @@ figcaption {
     .landing-wrapper {
         display: grid;
         grid-template-columns: repeat(20, calc(100%/20));
-        grid-template-rows: repeat(12, calc(100%/12));
+        grid-template-rows: repeat(20, calc(100%/20));
     }
     .kleben {
         grid-column: 4/ span 5;
@@ -1279,47 +1279,47 @@ figcaption {
         justify-items: end;
     }
     #briefmarke_s > img {
-        width: 15vw;
+        width: 20vw;
     }
     #briefmarke_r {
-        grid-row: 3/ span 1;
-        grid-column: 16;
+        grid-row: 5/ span 1;
+        grid-column: 12;
         display:grid;
         align-items: top;
         justify-items: center;
-        width:15vw;
+        width:20vw;
     }
 
     #briefmarke_b {
-        grid-row: 5/ span 1;
-        grid-column: 2;
+        grid-row: 6/ span 1;
+        grid-column: 4;
         display: grid;
         align-items: top;
         justify-items: center;
-        width:15vw;
+        width:20vw;
 
     }
 
     #briefmarke_g {
-        grid-row: 5/ span 2;
-        grid-column: 3;
+        grid-row: 6/ span 2;
+        grid-column: 6;
         display: grid;
         padding-top: 20px;
         padding-left: 20px;
-        width: 12vw;
+        width: 15vw;
     }
   
 
     .obj1 {
         height: initial;
         grid-column: 1/ span 3;
-        grid-row: 6/ span 2;
+        grid-row: 12/ span 2;
     }
 
     .obj2 {
         height: initial;
         grid-column: 1/ span 15;
-        grid-row: 10/ span 1;
+        grid-row: 16/ span 1;
         display: flex;
         width: 100%;
     }
@@ -1328,7 +1328,7 @@ figcaption {
         height: initial;
         display: inline;
         grid-column: 19;
-        grid-row: 5/ span 8;
+        grid-row: 6/ span 10;
         width: 100%;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -1337,28 +1337,31 @@ figcaption {
     }
     .obj4 {
         display:grid;
-        grid-row: 12;
+        grid-row: 18;
         grid-column: 1;
-        padding-left: 50vw;
+        padding-left: 22vw;
         width: 100vw;
-        height: 10vh;
-        font-size:10px;
+        height: 14vh;
         text-align: right;
         letter-spacing: 0.4px;
         border-bottom: solid black 4px;
         border-top: solid black 4px;
     }
 
+    br {
+        display:none;
+    }
+
     .blackblock1 {
         background-color: black;
         grid-column: 2;
-        grid-row: 1/ span 3;
+        grid-row: 1/ span 6;
     }
 
     .blackblock2 {
         background-color: black;
         grid-column: 18;
-        grid-row: 8/ span 4;
+        grid-row: 12/ span 6;
     }
 
     hr {
@@ -1541,28 +1544,28 @@ figcaption {
     /* For iPad: */
 
     h1 {
-        font-size: 6vw;
+        font-size: 11.5vw;
     }
 
     #wintersemester {
-        font-size: 3vw;
+        font-size: 6vw;
     }
 
     .wer {
-        font-size: 4vw;
+        font-size: 6vw;
         transform: rotate(90deg);
     }
 
     .beschreibung {
-        font-size: 1.2vh;
+        font-size: 2.5vw;
     }
 
     .landing {
-        height:60vh;
+        height:100vh;
         overflow: hidden;
     }
     .landing-wrapper {
-        height: 60vh;
+        height: 100vh;
         width: 100%;
         position: absolute;
     }
@@ -1570,7 +1573,7 @@ figcaption {
     .landing-wrapper {
         display: grid;
         grid-template-columns: repeat(20, calc(100%/20));
-        grid-template-rows: repeat(12, calc(100%/12));
+        grid-template-rows: repeat(20, calc(100%/20));
     }
     .kleben {
         grid-column: 4/ span 5;
@@ -1600,7 +1603,7 @@ figcaption {
     }
     #briefmarke_s {
         grid-row: 1/ span 1;
-        grid-column: 15;
+        grid-column: 11;
         display: grid;
         padding-right: 20px;
         padding-top: 20px;
@@ -1608,47 +1611,47 @@ figcaption {
         justify-items: end;
     }
     #briefmarke_s > img {
-        width: 25vw;
+        width: 45vw;
     }
     #briefmarke_r {
         grid-row: 3/ span 1;
-        grid-column: 14;
+        grid-column: 8;
         display:grid;
         align-items: top;
         justify-items: center;
-        width:25vw;
+        width:45vw;
     }
 
     #briefmarke_b {
-        grid-row: 5/ span 1;
+        grid-row: 8/ span 1;
         grid-column: 2;
         display: grid;
         align-items: top;
         justify-items: center;
-        width:25vw;
+        width:45vw;
 
     }
 
     #briefmarke_g {
-        grid-row: 5/ span 2;
-        grid-column: 5;
+        grid-row: 8/ span 2;
+        grid-column: 7;
         display: grid;
         padding-top: 20px;
         padding-left: 20px;
-        width: 17vw;
+        width: 32vw;
     }
   
 
     .obj1 {
         height: initial;
         grid-column: 1/ span 3;
-        grid-row: 8/ span 2;
+        grid-row: 14/ span 2;
     }
 
     .obj2 {
         height: initial;
-        grid-column: 1/ span 15;
-        grid-row: 10/ span 1;
+        grid-column: 1/ span 20;
+        grid-row: 17/ span 1;
         display: flex;
         width: 100%;
     }
@@ -1657,7 +1660,7 @@ figcaption {
         height: initial;
         display: inline;
         grid-column: 19;
-        grid-row: 5/ span 8;
+        grid-row: 11/ span 8;
         width: 100%;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -1666,11 +1669,11 @@ figcaption {
     }
     .obj4 {
         display:grid;
-        grid-row: 12;
+        grid-row: 19;
         grid-column: 1;
         padding-left: 13px;
         width: 100vw;
-        height: 60px;
+        height: 12vh;
         font-size:10px;
         text-align: right;
         letter-spacing: 0.4px;
@@ -1678,16 +1681,20 @@ figcaption {
         border-top: solid black 4px;
     }
 
+    br{
+        display:none;
+    }
+
     .blackblock1 {
         background-color: black;
         grid-column: 2;
-        grid-row: 1/ span 3;
+        grid-row: 1/ span 6;
     }
 
     .blackblock2 {
         background-color: black;
         grid-column: 18;
-        grid-row: 8/ span 4;
+        grid-row: 13/ span 6;
     }
 
     hr {
@@ -1711,7 +1718,7 @@ figcaption {
     }
 
     .accordion {
-        font-size: 0.85em;
+        font-size: 2em;
         padding-left: 0px;
         
     }
@@ -1929,28 +1936,30 @@ figcaption {
         width: 250px;
     }
     #briefmarke_r {
-        grid-row: 3/ span 1;
-        grid-column: 3;
+        grid-row: 5/ span 5;
+        grid-column: 4/ span 5;
         display: grid;
-        align-items: top;
+        align-items: left;
         justify-items: center;
-        width: 250px;
+        padding-right: 50px;
+        width: 275px;
     }
     #briefmarke_b {
-        grid-row: 2/ span 3;
+        grid-row: 2;
         grid-column: 5;
         display: grid;
         align-items: top;
         justify-items: center;
-        width: 250px;
+        width: 275px;
+        padding-left: 50px;
     }
     #briefmarke_g {
         grid-row: 6/ span 2;
-        grid-column: 3;
+        grid-column: 2;
         display: grid;
         padding-top: 20px;
         padding-left: 20px;
-        width: 150px;
+        width: 155px;
     }
 
     .obj1 {
@@ -2010,6 +2019,8 @@ figcaption {
     .accordion {
         font-size: 2em;
     }
+
+
     #acc1 {
         background-image: url(media/stampscontent/stamp1.png);
         background-repeat: no-repeat;
@@ -2155,3 +2166,5 @@ figcaption {
         background-size: 300px auto, auto 70%;
     }
 }
+
+
