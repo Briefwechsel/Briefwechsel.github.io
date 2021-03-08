@@ -218,7 +218,7 @@ figcaption {
 }
 
 @media only screen and (max-width: 376px) {
-    /* For mobile: */
+    /* For mobile iphone 6/7/8: */
 
     h1 {
         font-size:10vw;
@@ -230,7 +230,7 @@ figcaption {
     }
 
     .wer {
-        font-size: 7vw;
+        font-size: 6vw;
         transform: rotate(90deg);
     }
 
@@ -876,338 +876,7 @@ figcaption {
         background-size: 300px auto, auto 70%;
     }
 }
-
-@media only screen and (min-width: 392px) and (max-width: 668px) {
-    /* For mobile horizontal: */
-
-    h1 {
-        font-size: 6vw;
-
-    }
-
-    #wintersemester {
-        font-size: 3vw;
-    }
-
-    .wer {
-        font-size: 3vw;
-        transform: rotate(90deg);
-    }
-
-    .beschreibung {
-        font-size: 1.8vh;
-    }
-
-    .landing {
-        height:60vh;
-        overflow: hidden;
-    }
-    .landing-wrapper {
-        height: 60vh;
-        width: 100%;
-        position: absolute;
-    }
-
-    .landing-wrapper {
-        display: grid;
-        grid-template-columns: repeat(20, calc(100%/20));
-        grid-template-rows: repeat(12, calc(100%/12));
-    }
-    .kleben {
-        grid-column: 4/ span 5;
-        grid-row: 12 span 1;
-        display:none;
-        justify-content:center;
-        align-items:flex-end;
-        animation: blinker 3s linear infinite;
-        /*background-color: red;*/
-        font-size: 1.2em;
-
-    }
-    @keyframes blinker {
-        50% {
-            opacity: 0;
-        }
-    }
-    
-    #sketching-canvas {
-        position: absolute;
-        height: 50vh;
-        width: 100%;
-        z-index: +1;
-        top: 0;
-        left: 0;
-        display: unset;
-    }
-    #briefmarke_s {
-        grid-row: 1/ span 1;
-        grid-column: 17;
-        display: grid;
-        padding-right: 20px;
-        padding-top: 20px;
-        align-items: top;
-        justify-items: end;
-    }
-    #briefmarke_s > img {
-        width: 15vw;
-    }
-    #briefmarke_r {
-        grid-row: 3/ span 1;
-        grid-column: 16;
-        display:grid;
-        align-items: top;
-        justify-items: center;
-        width:15vw;
-    }
-
-    #briefmarke_b {
-        grid-row: 5/ span 1;
-        grid-column: 2;
-        display: grid;
-        align-items: top;
-        justify-items: center;
-        width:15vw;
-
-    }
-
-    #briefmarke_g {
-        grid-row: 5/ span 2;
-        grid-column: 3;
-        display: grid;
-        padding-top: 20px;
-        padding-left: 20px;
-        width: 12vw;
-    }
-  
-
-    .obj1 {
-        height: initial;
-        grid-column: 1/ span 3;
-        grid-row: 6/ span 2;
-    }
-
-    .obj2 {
-        height: initial;
-        grid-column: 1/ span 15;
-        grid-row: 10/ span 1;
-        display: flex;
-        width: 100%;
-    }
-
-    .obj3 {
-        height: initial;
-        display: inline;
-        grid-column: 19;
-        grid-row: 5/ span 8;
-        width: 100%;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: pre;
- 
-    }
-    .obj4 {
-        display:grid;
-        grid-row: 12;
-        grid-column: 1;
-        padding-left: 50vw;
-        width: 100vw;
-        height: 10vh;
-        font-size:10px;
-        text-align: right;
-        letter-spacing: 0.4px;
-        border-bottom: solid black 4px;
-        border-top: solid black 4px;
-    }
-
-    .blackblock1 {
-        background-color: black;
-        grid-column: 2;
-        grid-row: 1/ span 3;
-    }
-
-    .blackblock2 {
-        background-color: black;
-        grid-column: 18;
-        grid-row: 8/ span 4;
-    }
-
-    hr {
-        display: none;;
-    }
-
-   
-    .fusszeile {
-        grid-column: 1/ span 5;
-        grid-row: 11;
-    }
-
-    .arrow {
-        height: initial;
-        grid-column: 1/ span 5;
-        grid-row: 12/ span 1;
-        border-top: black 4px solid;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .accordion {
-        font-size: 0.85em;
-        padding-left: 0px;
-        
-    }
-
-    .content {
-        padding-top: 1vh;
-    }
-
-    #acc1 {
-        background-image: url(media/stampscontent/stamp1.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc2 {
-        background-image: url(media/stampscontent/stamp2.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc3{
-        background-image: url(media/stampscontent/stamp3.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc4{
-        background-image: url(media/stampscontent/stamp4.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc5 {
-        background-image: url(media/stampscontent/stamp5.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc6 {
-        background-image: url(media/stampscontent/stamp6.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc7 {
-        background-image: url(media/stampscontent/stamp7.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc8 {
-        background-image: url(media/stampscontent/stamp8.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc9 {
-        background-image: url(media/stampscontent/stamp9.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc10 {
-        background-image: url(media/stampscontent/stamp10.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc11{
-        background-image: url(media/stampscontent/stamp11.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc12 {
-        background-image: url(media/stampscontent/stamp12.png);
-        background-repeat: no-repeat;
-        background-position: right 20px top 20px;
-        background-size: auto 70%;
-    }
-    #acc1.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp1.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc2.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp2.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc3.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp3.png);
-        background-repeat: no-repeat;
-        background-position: right top, right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc4.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp4.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc5.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp5.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc6.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp6.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc7.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp7.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc8.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp8.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc9.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp9.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc10.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp10.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc11.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp11.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-    #acc12.open {
-        background-image: url(media/stempel.png), url(media/stampscontent/stamp12.png);
-        background-repeat: no-repeat;
-        background-position: right top, right 20px top 20px;
-        background-size: 300px auto, auto 70%;
-    }
-}
-
-@media only screen and (min-width: 392px) and (max-width: 668px) {
+@media only screen and (min-width: 666px) and (max-width: 668px) {
     /* For mobile iphone 6/7/8 horizontal: */
 
     h1 {
@@ -1540,7 +1209,340 @@ figcaption {
     }
 }
 
-@media only screen and (min-width:668px) and (max-width: 769px) {
+@media only screen and (min-width: 843px) and (max-width: 845px) {
+    /* For mobile iphone 12 horizontal: */
+
+    h1 {
+        font-size: 6vw;
+
+    }
+
+    #wintersemester {
+        font-size: 3.2vw;
+    }
+
+    .wer {
+        font-size: 4vw;
+        transform: rotate(90deg);
+    }
+
+    .beschreibung {
+        font-size: 2.5vh;
+    }
+
+    .landing {
+        height:100vh;
+        overflow: hidden;
+    }
+    .landing-wrapper {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+    }
+
+    .landing-wrapper {
+        display: grid;
+        grid-template-columns: repeat(20, calc(100%/20));
+        grid-template-rows: repeat(20, calc(100%/20));
+    }
+    .kleben {
+        grid-column: 4/ span 5;
+        grid-row: 12 span 1;
+        display:none;
+        justify-content:center;
+        align-items:flex-end;
+        animation: blinker 3s linear infinite;
+        /*background-color: red;*/
+        font-size: 1.2em;
+
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    
+    #sketching-canvas {
+        position: absolute;
+        height: 50vh;
+        width: 100%;
+        z-index: +1;
+        top: 0;
+        left: 0;
+        display: unset;
+    }
+    #briefmarke_s {
+        grid-row: 1/ span 1;
+        grid-column: 17;
+        display: grid;
+        padding-right: 20px;
+        padding-top: 20px;
+        align-items: top;
+        justify-items: end;
+    }
+    #briefmarke_s > img {
+        width: 20vw;
+    }
+    #briefmarke_r {
+        grid-row: 5/ span 1;
+        grid-column: 12;
+        display:grid;
+        align-items: top;
+        justify-items: center;
+        width:20vw;
+    }
+
+    #briefmarke_b {
+        grid-row: 5/ span 1;
+        grid-column: 4;
+        display: grid;
+        align-items: top;
+        justify-items: center;
+        width:20vw;
+
+    }
+
+    #briefmarke_g {
+        grid-row: 5/ span 2;
+        grid-column: 6;
+        display: grid;
+        padding-top: 20px;
+        padding-left: 20px;
+        width: 15vw;
+    }
+  
+
+    .obj1 {
+        height: initial;
+        grid-column: 1/ span 3;
+        grid-row: 11/ span 2;
+    }
+
+    .obj2 {
+        height: initial;
+        grid-column: 1/ span 15;
+        grid-row: 16/ span 1;
+        display: flex;
+        width: 100%;
+    }
+
+    .obj3 {
+        height: initial;
+        display: inline;
+        grid-column: 19;
+        grid-row: 6/ span 20;
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: pre;
+ 
+    }
+    .obj4 {
+        display:grid;
+        grid-row: 18;
+        grid-column: 1;
+        padding-left: 22vw;
+        width: 100vw;
+        height: 14vh;
+        text-align: right;
+        letter-spacing: 0.4px;
+        border-bottom: solid black 4px;
+        border-top: solid black 4px;
+    }
+
+    br {
+        display:none;
+    }
+
+    .blackblock1 {
+        background-color: black;
+        grid-column: 2;
+        grid-row: 1/ span 6;
+    }
+
+    .blackblock2 {
+        background-color: black;
+        grid-column: 18;
+        grid-row: 12/ span 6;
+    }
+
+    hr {
+        display: none;;
+    }
+
+   
+    .fusszeile {
+        grid-column: 1/ span 5;
+        grid-row: 11;
+    }
+
+    .arrow {
+        height: initial;
+        grid-column: 1/ span 5;
+        grid-row: 12/ span 1;
+        border-top: black 4px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .accordion {
+        font-size: 0.85em;
+        padding-left: 20px;
+        
+    }
+
+    .content {
+        padding-top: 1vh;
+    }
+
+    #acc1 {
+        background-image: url(media/stampscontent/stamp1.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc2 {
+        background-image: url(media/stampscontent/stamp2.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc3{
+        background-image: url(media/stampscontent/stamp3.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc4{
+        background-image: url(media/stampscontent/stamp4.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc5 {
+        background-image: url(media/stampscontent/stamp5.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc6 {
+        background-image: url(media/stampscontent/stamp6.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc7 {
+        background-image: url(media/stampscontent/stamp7.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc8 {
+        background-image: url(media/stampscontent/stamp8.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc9 {
+        background-image: url(media/stampscontent/stamp9.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc10 {
+        background-image: url(media/stampscontent/stamp10.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc11{
+        background-image: url(media/stampscontent/stamp11.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc12 {
+        background-image: url(media/stampscontent/stamp12.png);
+        background-repeat: no-repeat;
+        background-position: right 20px top 20px;
+        background-size: auto 70%;
+    }
+    #acc1.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp1.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc2.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp2.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc3.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp3.png);
+        background-repeat: no-repeat;
+        background-position: right top, right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc4.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp4.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc5.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp5.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc6.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp6.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc7.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp7.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc8.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp8.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc9.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp9.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc10.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp10.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc11.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp11.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+    #acc12.open {
+        background-image: url(media/stempel.png), url(media/stampscontent/stamp12.png);
+        background-repeat: no-repeat;
+        background-position: right top, right 20px top 20px;
+        background-size: 300px auto, auto 70%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 769px) {
     /* For iPad: */
 
     h1 {
@@ -2166,5 +2168,3 @@ figcaption {
         background-size: 300px auto, auto 70%;
     }
 }
-
-
