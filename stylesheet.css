@@ -128,8 +128,8 @@ hr {
     font-size: 1.2em;
     cursor: pointer;
     width: 100%;
-    margin-bottom: 0px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: px;
     height: 17vh;
     overflow: hidden;
     display: flex;
@@ -140,7 +140,7 @@ hr {
 
 .panel {
     background-color: #EFEFEF;
-    height:83vh;
+    height:73vh;
     border-left: 4px solid black;
     border-right: 4px solid black;
     border-bottom: 4px solid black;
@@ -191,6 +191,15 @@ figure > video {
     hyphens: auto;
     padding-left: 20px;
     padding-right: 1rem;
+}
+.erklaerung1 {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    hyphens:auto;
+    padding-left: 20px;
+    padding-right: 1rem;
+    white-space:initial;
 }
 figure {
     display: inline;
@@ -367,7 +376,7 @@ figcaption {
 
     .blackblock2 {
         background-color: black;
-        grid-column: 17;
+        grid-column: 18;
         grid-row: 18/ span 8;
     }
 
@@ -728,7 +737,7 @@ figcaption {
     }
 
     .content {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     #acc1 {
@@ -2382,6 +2391,7 @@ figcaption {
         align-items: center;
         justify-content: center;
     }
+      
 
     .accordion {
         font-size: 2em;
@@ -2555,6 +2565,7 @@ figcaption {
 
     .beschreibung {
         font-size: 2vh;
+        padding: 1rem;
     }
 
     .landing-wrapper {
