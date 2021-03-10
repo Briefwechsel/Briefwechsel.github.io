@@ -19,7 +19,7 @@ function mouseClicked() {
 function drawImage(img){
   img.resize(550, 0);
   var w = img.width, h = img.height;
-  w /= 4; h /= 4;
+  w /= 2; h /= 2;
   img.width = w; img.height = h;
   image(img, mouseX, mouseY);
 }
