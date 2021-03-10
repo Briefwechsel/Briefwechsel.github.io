@@ -1,3 +1,5 @@
+if (document.documentElement.clientWidth > 667) {
+
 let possible_briefmarke_images;
 let img;
 let currentBriefmarkPos;
@@ -29,4 +31,5 @@ function printNextBriefmark() {
   if (currentBriefmarkPos == possible_briefmarke_images.length)
     currentBriefmarkPos = 0;
   loadImage(possible_briefmarke_images[currentBriefmarkPos], drawImage);
+}
 }
