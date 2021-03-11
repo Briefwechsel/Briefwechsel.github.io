@@ -335,7 +335,6 @@ figcaption {
         height: 16vh;
         text-align: right;
         letter-spacing: 0.4px;
-        border-bottom: solid black 4px;
         border-top: solid black 4px;
     }
 
@@ -647,7 +646,6 @@ figcaption {
         height: 17vh;
         text-align: right;
         letter-spacing: 0.4px;
-        border-bottom: solid black 4px;
         border-top: solid black 4px;
     }
 
@@ -958,7 +956,7 @@ figcaption {
         height: 25vh;
         text-align: right;
         letter-spacing: 0.4px;
-        border-bottom: solid black 4px;
+       
         border-top: solid black 4px;
     }
 
