@@ -362,7 +362,7 @@ figcaption {
     }
 
     .content {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     #acc1 {
@@ -673,7 +673,7 @@ figcaption {
     }
 
     .content {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     #acc1 {
@@ -988,9 +988,10 @@ figcaption {
         
     }
 
-    .content {
-        padding-top: 10px;
-    }
+      .content {
+            padding-top: 0px;
+            margin-top: 0px;;
+        }
 
     #acc1 {
         background-image: url(media/stampscontent/stamp1.png);
@@ -1290,7 +1291,11 @@ figcaption {
     .accordion {
         font-size: 2em;
     }
-
+    
+    .content {
+        padding-top: 0px;
+        margin-top: 0px;;
+    }
 
     #acc1 {
         background-image: url(media/stampscontent/stamp1.png);
