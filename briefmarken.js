@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   pixelDensity(3.0);
   imageMode (CENTER);
   currentBriefmarkPos = 0;
